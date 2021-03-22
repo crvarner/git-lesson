@@ -18,7 +18,7 @@ $ git branch BRANCH_NAME
 $ git checkout BRANCH_NAME
 ```
 
-4. Create a new file called `chase.txt` and fill it with a message (in your editor). Add that file to the index, and commit it. When you enter the editor to type you commit message, press "i" to enter "INSERT" mode. Type your message. Press "ESC", then type ":wq" and press enter.
+4. Create a new file called `chase.txt` and fill it with a message (in your editor). Add that file to the index, and commit it. When you enter the editor to type your commit message, press "i" to enter INSERT mode. Type your message. Press "ESC" to exit INSERT mode, then type ":wq" (stands for "write quit") and then press enter.
 ```
 $ git add chase.txt
 $ git commit
