@@ -18,15 +18,19 @@ $ git branch BRANCH_NAME
 $ git checkout BRANCH_NAME
 ```
 
-4. Create a new file called `chase.txt` and fill it with a message (in your editor). Add that file to the index, and commit it. When you enter the editor to type your commit message, press "i" to enter INSERT mode. Type your message. Press "ESC" to exit INSERT mode, then type ":wq" (stands for "write quit") and then press enter.
+4. Create a new file called `chase.txt` and fill it with a message (in your editor). Add that file to the index, and commit it. When you enter the editor to type your commit message, press "i" to enter INSERT mode. Type your message. Press "ESC" to exit INSERT mode. Type ":wq" (stands for "write quit") and press enter.
 ```
 $ git add chase.txt
 $ git commit
 ```
 
-5. Instead of merging your code into main and pushing directly, you are going to push a branch and open a pull request. This is what we'll be using in the future to review your code.
+5. Instead of merging your code into main and pushing, you are going to push a branch to the remote repo and open a pull request. This is what we'll be using in the future to review your code. First, list your branches (using the `-vv` flag for extra verboseness). Then push your code, using `-u REMOTE_NAME BRANCH_NAME` to set the upstream branch. In this case, REMOTE_NAME is `origin` and BRANCH_NAME is whatever you named your local branch. Finally, list your branches (again verbosely with `-vv`). You should see that your local branch now "tracks" a remote branch on origin (indicated by `[origin/branch_name]`).
 ```
-$ git push -u origin BRANCH_NAME:BRANCH_NAME
+$ git branch -vv
+$ git push -u origin BRANCH_NAME
+$ git branch -vv
 ```
 
-6. On https://github.com/crvarner/git-lesson/branches, locate the branch you just pushed and create a pull request. Then text yo boy.
+6. On https://github.com/crvarner/git-lesson/branches, locate the branch you just pushed and create a pull request.
+
+7. Text ya boy.
