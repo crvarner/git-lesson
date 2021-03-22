@@ -6,7 +6,7 @@ $ git checkout main
 $ git pull
 ```
 
-2. OPTIONAL: list your existing local branches and delete any old development branches to cleanup your local repo
+2. OPTIONAL: list your existing local branches and delete any old development branches (i.e. not `main`) to cleanup your local repo
 ```
 $ git branch
 $ git branch --delete BRANCH_TO_DELETE
