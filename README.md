@@ -1,4 +1,4 @@
-# git-lesson
+# git-lesson #2: Pull Requests
 
 1. Double check that you are on the main branch and pull down the latest version of this README from github
 ```
@@ -24,13 +24,9 @@ $ git add chase.txt
 $ git commit
 ```
 
-5. Checkout the main branch and merge development branch changes into it
+5. Instead of merging your code into main and pushing directly, you are going to push a branch and open a pull request. This is what we'll be using in the future to review your code.
 ```
-$ git checkout main
-$ git merge BRANCH_NAME
+$ git push -u origin BRANCH_NAME:BRANCH_NAME
 ```
 
-6. Push your changes to the remote repo
-```
-$ git push
-```
+6. On https://github.com/crvarner/git-lesson/branches, locate the branch you just pushed and create a pull request. Then text yo boy.
