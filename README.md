@@ -18,7 +18,7 @@ $ git branch BRANCH_NAME
 $ git checkout BRANCH_NAME
 ```
 
-4. Create a new file called `chase.txt` and fill it with a message (in your editor). Add that file to the index, and commit it. When you enter the editor to type your commit message, press "i" to enter INSERT mode. Type your message. Press "ESC" to exit INSERT mode. Type ":wq" (stands for "write quit") and press enter.
+4. Create a new file called `chase.txt` and fill it with a message (in your editor). Add that file to the index, and commit it. When you enter the editor to type your commit message, press "i" to enter INSERT mode. Type your message. Press "ESC" to exit INSERT mode. Type ":wq" (stands for "write quit") and press enter. The editor that git opens for entering commit messages is called `vi`. Feel free to google it if you want to learn more. It is a very handy tool to know how to use, as it is installed by default on almost all unix (mac or linux) OS's. You will almost certainly use it to edit files on remote servers at some point in your career.
 ```
 $ git add chase.txt
 $ git commit
