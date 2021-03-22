@@ -33,4 +33,4 @@ $ git branch -vv
 
 6. On https://github.com/crvarner/git-lesson/branches, locate the branch you just pushed and create a pull request.
 
-7. Text ya boy.
+7. Text ya boy!
